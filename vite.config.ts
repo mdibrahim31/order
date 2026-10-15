@@ -15,7 +15,8 @@ export default defineConfig(() => {
     build: {
       rollupOptions: {
         input: {
-          main: path.resolve(import.meta.dirname, 'order.html'),
+          main: path.resolve(import.meta.dirname, 'index.html'),
+          order: path.resolve(import.meta.dirname, 'order.html'),
         },
       },
     },
